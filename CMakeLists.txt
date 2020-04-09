@@ -18,7 +18,7 @@ set(LIB  CPrinter)							#set the name of the static library (.a) as projectLib.
 add_library(${LIB} STATIC ${source_files})	#add all the .cc to static library previously defined
 
 # Create the executable
-set(EXEC executable)						#set the name of the executable
+set(EXEC printer)   						#set the name of the executable
 add_executable(${EXEC} ${exec_file})		#declare the executable with its file
 target_link_libraries(${EXEC} ${LIB})		#add the library to the created executable	
 
