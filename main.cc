@@ -15,9 +15,9 @@ int main(){
 	cout << "vi: " << vi << "\n";
 
 	vector<float> vf;
-	vf.push_back(0.5);
-	vf.push_back(0.4);
-	vf.push_back(0.3);
+	vf.push_back(0.5f);
+	vf.push_back(0.4f);
+	vf.push_back(0.3f);
 	cout << "vf: " << vf << "\n";
 
 	return(0);
